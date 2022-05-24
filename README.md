@@ -31,9 +31,6 @@ $ cd Portfolio
 
 ## 🤝 Collaborators
 
-- GitHub: [@chumaachike](https://github.com/chumaachike)
-- Francisco Borja
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
