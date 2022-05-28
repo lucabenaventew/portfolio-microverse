@@ -1,0 +1,115 @@
+/* ABOUT */
+
+.about {
+    background-color: #1c1a19;
+    background-image: url(../img/bg/Frame.png);
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    background-size: 40%;
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 1fr 10% 1fr;
+  }
+  
+  .about_text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    grid-column: 2;
+    height: 75vh;
+  }
+  
+  .about_text h1 {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    line-height: 81.5px;
+    font-size: 72px;
+    color: #f55800;
+  }
+  
+  .about_text p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 20px;
+  }
+  
+  .about_text a {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f55800;
+    width: 161px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+  }
+  
+  .about_text a:hover {
+    background-color: #fff;
+    color: #f55800;
+    border: 2px solid #f55800;
+  }
+  
+  .line {
+    background-color: #ffffff;
+    height: 1px;
+    width: 100%;
+    grid-row: 2;
+    grid-column: 2 / 4;
+  }
+  
+  .skills_container {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .deco1 {
+    width: 18px;
+    height: 18px;
+    background-color: #f55800;
+    transform: rotateZ(45deg);
+  }
+  
+  .deco2 {
+    width: 18px;
+    height: 18px;
+    background-color: #f55800;
+  }
+  
+  .deco3 {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: #f55800;
+  }
+  
+  .skills_container div h4 {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  
+  .skills_container div div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .skills_container div ul li {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    padding: 1rem 0;
+  }
+  /* ABOUT END */

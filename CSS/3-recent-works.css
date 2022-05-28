@@ -1,0 +1,228 @@
+/* RECENT WORKS */
+
+.recent_works_container {
+    height: auto;
+  }
+  
+  .recent_works_container div {
+    width: 80%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .recent_works_container div h1 {
+    color: #091e42;
+    font-family: "Crete Round", serif;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  
+  .recent_works_container div .line {
+    height: 1px;
+    width: 65%;
+    background-color: #212121;
+  }
+  
+  .recent_works_container figure {
+    display: flex;
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .recent_works_container figure img {
+    width: 648px;
+    height: 448px;
+  }
+  
+  .recent_works_container figcaption {
+    height: 448px;
+    padding: 0 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .recent_works_container figcaption h1 {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+  
+  .recent_works_container figcaption p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091e42;
+  }
+  
+  .recent_works_container figcaption ul {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .recent_works_container figcaption ul li {
+    border: 1px solid #8993a4;
+    padding: 0.2rem 0.4rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #091e42;
+  }
+  
+  .recent_works_container figcaption button {
+    width: fit-content;
+    height: 3rem;
+    padding: 0.5rem 1rem;
+    background-color: #f55800;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    transition: all 0.5s;
+  }
+  
+  .recent_works_container figcaption button:hover {
+    background-color: #fff;
+    color: #f55800;
+    border: 2px solid #f55800;
+  }
+  
+  /* WORKS GRID */
+  
+  .recent_works_container .works_grid_container {
+    width: 80;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .recent_works_container .works_grid_container div {
+    width: 369px;
+    height: 435px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .recent_works_container .works_grid_container div:nth-child(4) {
+    background-image: url("../img/bg/secondbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .recent_works_container .works_grid_container div:nth-child(2) {
+    background-image: url("../img/bg/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .recent_works_container .works_grid_container div:nth-child(3) {
+    background-image: url("../img/bg/bg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .recent_works_container .works_grid_container div:nth-child(5) {
+    background-image: url("../img/bg/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .recent_works_container .works_grid_container div:nth-child(6) {
+    background-image: url("../img/bg/bg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .recent_works_container .works_grid_container .card_hovered {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("../img/bg/secondbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .recent_works_container .works_grid_container .card_hovered button {
+    width: 100%;
+    height: 58px;
+    background-color: #f55800;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    transition: all 0.5s;
+  }
+  
+  .recent_works_container .works_grid_container .card_hovered button:hover {
+    background-color: #fff;
+    color: #f55800;
+    border: 2px solid #f55800;
+  }
+  
+  .recent_works_container .works_grid_container .card {
+    display: flex;
+    height: fit-content;
+  }
+  
+  .recent_works_container .works_grid_container .card .content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    color: #fff;
+  }
+  
+  .recent_works_container .works_grid_container .card .content h1 {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .recent_works_container .works_grid_container .card .content p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  
+  .recent_works_container .works_grid_container .card .content ul {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .recent_works_container .works_grid_container .card .content ul li {
+    border: 1px solid #8993a4;
+    padding: 0.2rem 0.4rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  /* WORKS GRID END */
+  
+  /* RECENT WORKS END */
