@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700&family=Poppins&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.hamburger {
+  display: none;
+}
+.nav_container {
+  font-family: "Inter", sans-serif;
+  background-color: #3e3c3c;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_links_container {
+  display: flex;
+  gap: 1rem;
+  margin-right: 5rem;
+}
+nav .nav_logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 5rem;
+}
+nav ul .nav_link {
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  transition: all 0.4s;
+}
+nav ul .nav_link:hover {
+  background-color: gray;
+  color: #3e3c3c;
+}
