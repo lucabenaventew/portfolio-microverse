@@ -179,5 +179,13 @@
       gap: 2rem;
       text-align: center;
     }
+
+    .skills_container div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
     /* About end */
   }
