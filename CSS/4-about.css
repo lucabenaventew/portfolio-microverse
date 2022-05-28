@@ -18,7 +18,7 @@
     justify-content: center;
     gap: 1rem;
     grid-column: 2;
-    height: 75vh;
+    height: 100vh;
   }
   
   .about_text h1 {

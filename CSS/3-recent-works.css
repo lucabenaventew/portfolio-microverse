@@ -101,11 +101,15 @@
   }
   
   /* WORKS GRID */
+
+  .recent_works_container .works_grid_container .card button {
+      display: none;
+  }
   
   .recent_works_container .works_grid_container {
-    width: 80;
     height: fit-content;
     margin: auto;
+    margin-top: 10rem;
     margin-bottom: 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -184,7 +188,6 @@
   }
   
   .recent_works_container .works_grid_container .card .content {
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -198,7 +201,7 @@
     font-size: 32px;
     line-height: 44px;
     color: #fff;
-    margin-bottom: 1rem;
+    padding: 0 0 0 1rem;
   }
   
   .recent_works_container .works_grid_container .card .content p {
@@ -206,17 +209,20 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
+    padding: 0 1rem;
   }
   
   .recent_works_container .works_grid_container .card .content ul {
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
+    padding: 0 0 1rem 1rem;
   }
   
   .recent_works_container .works_grid_container .card .content ul li {
     border: 1px solid #8993a4;
-    padding: 0.2rem 0.4rem;
+    background-color: #FFFFFF3D;
+    padding: 0.4rem 0.7rem;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
