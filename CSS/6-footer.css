@@ -1,0 +1,17 @@
+footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 1rem 0;
+}
+
+footer ul {
+    display: flex;
+    gap: 1rem;
+}
+
+footer div {
+    display: none;
+}

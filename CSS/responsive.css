@@ -225,15 +225,15 @@
   }
 
   .form_section div {
-    width: 85%;
+    width: fit-content;
     text-align: center;
   }
 
   .form_section div h2 {
-    color: #262626;
+    color: #172B4D;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 40px;
     line-height: 44px;
 }
 
@@ -256,4 +256,17 @@
 }
 
   /* Contact end */
+
+  /* Footer */
+
+  footer div {
+    display: block;
+    background-color: black;
+    border-radius: 1rem;
+    height: 5px;
+    width: 20%;
+    margin-top: 1rem;
+}
+
+  /* Footer End */
 }
