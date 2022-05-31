@@ -172,6 +172,7 @@
 
   .recent_works_container .works_grid_container {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
 
   /* WORKSGRID END */
@@ -180,20 +181,23 @@
 
   .about {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
     /* grid-template-rows: auto 5% 1fr; */
-    background-position: -120% 20%;
+    background-position: -120% 25%;
     background-size: 140%;
   }
 
   .about_text {
     width: 90%;
     margin: auto;
+    margin-top: 10rem;
     justify-content: flex-start;
   }
 
   .skills_container {
     grid-template-columns: 1fr;
     gap: 1rem;
+    margin: 8rem 0;
   }
 
   .skills_container div {
@@ -212,4 +216,44 @@
     gap: 1rem;
   }
   /* About end */
+
+  /* Contact */
+
+  .form_section {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .form_section div {
+    width: 85%;
+    text-align: center;
+  }
+
+  .form_section div h2 {
+    color: #262626;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.form_section form {
+  align-items: center;
+  width: 100%;
+  
+}
+
+.form_section form input {
+  width: 100%;
+}
+
+.form_section form textarea {
+  width: 100%;
+}
+
+.form_section form button {
+  align-self: center;
+}
+
+  /* Contact end */
 }

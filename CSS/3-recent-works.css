@@ -30,7 +30,7 @@
   
   .recent_works_container figure {
     display: flex;
-    height: 80vh;
+    height: 60vh;
     width: 80%;
     margin: auto;
   }
@@ -72,7 +72,7 @@
   
   .recent_works_container figcaption ul li {
     border: 1px solid #8993a4;
-    padding: 0.2rem 0.4rem;
+    padding: 0.4rem 0.7rem;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;

@@ -21,6 +21,7 @@
     gap: 1rem;
     margin-bottom: 3rem;
   }
+
   .hero_text {
     color: #fff;
     display: flex;
@@ -28,6 +29,7 @@
     justify-content: center;
     gap: 1rem;
   }
+
   .hero_text h1 {
     font-family: "Crete Round", serif;
     font-weight: 400;
@@ -35,12 +37,14 @@
     font-size: 72px;
     color: #f55800;
   }
+
   .hero_text h4 {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     line-height: 44px;
     font-size: 32px;
   }
+  
   .hero_text p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
