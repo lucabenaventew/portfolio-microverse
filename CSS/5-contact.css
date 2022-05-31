@@ -1,0 +1,89 @@
+.form_section {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.form_section div {
+    width: 40%;
+}
+
+.form_section div h2 {
+    color: #262626;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.form_section form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+}
+
+.form_section form input {
+    border: none;
+    padding: 1rem;
+}
+
+.form_section form input::placeholder {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #979493;
+}
+
+.form_section form input:focus {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #3C3A39;
+    border: none;
+}
+
+.form_section form textarea {
+    height: 8rem;
+    border: none;
+    padding: 1rem;
+}
+
+.form_section form textarea::placeholder {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3C3A39;
+}
+
+.form_section form textarea:focus {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3C3A39;
+}
+
+.form_section form button {
+    width: 122px;
+    height: 48px;
+    background-color: #f55800;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.form_section form button:hover {
+    background-color: #fff;
+    color: #f55800;
+    border: 2px solid #f55800;
+}

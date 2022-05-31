@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="../CSS/2-hero.css" />
     <link rel="stylesheet" href="../CSS/3-recent-works.css" />
     <link rel="stylesheet" href="../CSS/4-about.css" />
-    <link rel="stylesheet" href="../CSS/5-responsive.css" />
+    <link rel="stylesheet" href="../CSS/5-contact.css" />
+    <link rel="stylesheet" href="../CSS/responsive.css" />
     <script src="https://kit.fontawesome.com/8bb8430e5d.js" crossorigin="anonymous"></script>
     <title>Luca's Portfolio</title>
 </head>
@@ -246,6 +247,29 @@
             </div>
         </div>
     </section>
+
+    <section id="contact" class="form_section">
+        <div class="form_text">
+            <h2>
+                I'm always interested in hearing about new projects, so if you'd like
+                to chat please get in touch.
+            </h2>
+        </div>
+        <form action="https://formspree.io/f/mleznykr" method="POST" class="form">
+            
+                <input class="form_input form_fullname" type="text" 
+                    name="user_last_name" required maxlength="60" />
+                <input class="form_input form_email" type="email"  name="user_email"
+                    required />
+                <textarea class="form_msg" name="user_message"  required
+                    maxlength="500"></textarea>
+                <div class="form_btn">
+                    <button type="submit" class="btn_reg">Get in touch</button>
+                </div>
+            
+        </form>
+    </section>
+
 </body>
 
 </html>
