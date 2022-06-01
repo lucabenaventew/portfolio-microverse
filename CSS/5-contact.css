@@ -87,3 +87,46 @@
     color: #f55800;
     border: 2px solid #f55800;
 }
+
+@media screen and (max-width: 600px) {
+
+    /* Contact */
+  
+    .form_section {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .form_section div {
+      width: fit-content;
+      text-align: center;
+    }
+  
+    .form_section div h2 {
+      color: #172B4D;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 44px;
+  }
+  
+  .form_section form {
+    align-items: center;
+    width: 100%;
+    
+  }
+  
+  .form_section form input {
+    width: 100%;
+  }
+  
+  .form_section form textarea {
+    width: 100%;
+  }
+  
+  .form_section form button {
+    align-self: center;
+  }
+  
+    /* Contact end */
+}
