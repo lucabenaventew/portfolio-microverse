@@ -1,4 +1,4 @@
-.hero {
+  .hero {
     background-color: #1c1a19;
     background-image: url(../img/bg/Illustration-header.png);
     background-repeat: no-repeat;
@@ -8,11 +8,11 @@
     display: grid;
     grid-template-columns: 10% 40%;
   }
-  
+
   .icons {
     align-self: center;
   }
-  
+
   .socialmedia_icons_container {
     text-align: center;
     display: flex;
@@ -44,7 +44,7 @@
     line-height: 44px;
     font-size: 32px;
   }
-  
+
   .hero_text p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -52,51 +52,50 @@
     font-size: 20px;
   }
 
-  @media screen and (max-width: 600px) {
-
-    /* Hero */
-    .hero {
-      grid-template-columns: 1fr;
-      background-position: 270% 105%;
-      background-size: 80%;
-      gap: 1rem;
-    }
-  
-    .hero_text {
-      width: 90%;
-      height: 100%;
-      margin: auto;
-      justify-content: flex-end;
-    }
-  
-    .hero_text h1 {
-      font-size: 56px;
-      line-height: 64px;
-    }
-  
-    .hero_text h4 {
-      font-size: 24px;
-      line-height: 32px;
-      font-weight: 700;
-    }
-  
-    .hero_text p {
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 500;
-    }
-  
-    .icons {
-      grid-row: 2;
-      height: 100%;
-      width: 90%;
-      margin: auto;
-    }
-  
-    .socialmedia_icons_container {
-      flex-direction: row;
-      align-items: center;
-      justify-content: flex-start;
-    }
-    /* Hero end */
+@media screen and (max-width: 600px) {
+  /* Hero */
+  .hero {
+    grid-template-columns: 1fr;
+    background-position: 270% 105%;
+    background-size: 80%;
+    gap: 1rem;
   }
+
+  .hero_text {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    justify-content: flex-end;
+  }
+
+  .hero_text h1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  .hero_text h4 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .hero_text p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .icons {
+    grid-row: 2;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+  }
+
+  .socialmedia_icons_container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  /* Hero end */
+}
