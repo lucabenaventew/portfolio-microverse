@@ -1,4 +1,3 @@
-@media screen and (min-width: 768px) {
   /* ABOUT */
 
   .about {
@@ -127,7 +126,6 @@
     padding: 1rem 0;
   }
   /* ABOUT END */
-}
 
 @media screen and (max-width: 600px) {
   /* About */

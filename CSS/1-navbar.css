@@ -7,7 +7,6 @@
   font-family: 'Roboto', sans-serif; 
    */
 
-@media screen and (min-width: 768px) {
   * {
     box-sizing: border-box;
     padding: 0;
@@ -51,7 +50,7 @@
     background-color: gray;
     color: #3e3c3c;
   }
-}
+
 @media screen and (max-width: 600px) {
   /* Navbar */
   nav .nav_logo {

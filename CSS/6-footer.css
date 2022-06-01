@@ -1,4 +1,3 @@
-@media screen and (min-width: 768px) {
   footer {
     border-top: 1px solid #dfe1e6;
     height: auto;
@@ -18,7 +17,7 @@
   footer div {
     display: none;
   }
-}
+
 @media screen and (max-width: 600px) {
   /* Footer */
 

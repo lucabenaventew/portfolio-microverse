@@ -1,4 +1,3 @@
-@media screen and (min-width: 768px) {
   .form_section {
     height: 100vh;
     width: 80%;
@@ -101,7 +100,6 @@
     color: #fff;
     transition: all 0.5s;
   }
-}
 
 @media screen and (max-width: 600px) {
   /* Contact */

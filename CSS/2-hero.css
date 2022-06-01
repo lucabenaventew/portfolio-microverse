@@ -1,4 +1,3 @@
-@media screen and (min-width: 768px) {
   .hero {
     background-color: #1c1a19;
     background-image: url(../img/bg/Illustration-header.png);
@@ -52,7 +51,6 @@
     line-height: 32px;
     font-size: 20px;
   }
-}
 
 @media screen and (max-width: 600px) {
   /* Hero */
