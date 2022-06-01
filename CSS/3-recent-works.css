@@ -120,6 +120,20 @@
       color: #fff;
       transition: all 0.5s;
   }
+  
+  .recent_works_container .works_grid_container .card_hovered button {
+    width: 100%;
+    height: 58px;
+    background-color: #f55800;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
 
   .recent_works_container .works_grid_container .card button:hover {
     background-color: #fff;
@@ -147,6 +161,12 @@
     background-size: cover;
   }
   
+  .recent_works_container .works_grid_container .card {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+  }
+
   .recent_works_container .works_grid_container .card:nth-child(4) {
     background-image: url("../img/bg/secondbg.png");
     background-repeat: no-repeat;
@@ -186,30 +206,10 @@
     background-size: cover;
   }
   
-  .recent_works_container .works_grid_container .card_hovered button {
-    width: 100%;
-    height: 58px;
-    background-color: #f55800;
-    border: none;
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    color: #fff;
-    transition: all 0.5s;
-    cursor: pointer;
-  }
-  
   .recent_works_container .works_grid_container .card_hovered button:hover {
     background-color: #fff;
     color: #f55800;
     border: 2px solid #f55800;
-  }
-  
-  .recent_works_container .works_grid_container .card {
-    display: flex;
-    height: fit-content;
-    flex-direction: column;
   }
 
   .recent_works_container .works_grid_container .card .content {
