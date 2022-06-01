@@ -1,5 +1,6 @@
-footer {
-    border-top: 1px solid #DFE1E6;
+@media screen and (min-width: 768px) {
+  footer {
+    border-top: 1px solid #dfe1e6;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -7,29 +8,28 @@ footer {
     align-items: center;
     margin: 0 0 1rem 0;
     padding-top: 1rem;
-}
+  }
 
-footer ul {
+  footer ul {
     display: flex;
     gap: 1rem;
-}
+  }
 
-footer div {
+  footer div {
     display: none;
+  }
 }
-
 @media screen and (max-width: 600px) {
+  /* Footer */
 
-    /* Footer */
-  
-    footer div {
-      display: block;
-      background-color: black;
-      border-radius: 1rem;
-      height: 5px;
-      width: 20%;
-      margin-top: 1rem;
+  footer div {
+    display: block;
+    background-color: black;
+    border-radius: 1rem;
+    height: 5px;
+    width: 20%;
+    margin-top: 1rem;
   }
-  
-    /* Footer End */
-  }
+
+  /* Footer End */
+}

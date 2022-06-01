@@ -1,4 +1,5 @@
-.form_section {
+@media screen and (min-width: 768px) {
+  .form_section {
     height: 100vh;
     width: 80%;
     margin: auto;
@@ -6,70 +7,70 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
-}
+  }
 
-.form_section div {
+  .form_section div {
     width: 40%;
-}
+  }
 
-.form_section div h2 {
+  .form_section div h2 {
     color: #262626;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-}
+  }
 
-.form_section form {
+  .form_section form {
     display: flex;
     flex-direction: column;
     width: 50%;
     gap: 2rem;
-}
+  }
 
-.form_section form input {
+  .form_section form input {
     border: none;
     padding: 1rem;
-}
+  }
 
-.form_section form input::placeholder {
-    font-family: 'Roboto', sans-serif; 
+  .form_section form input::placeholder {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #979493;
-}
+  }
 
-.form_section form input:focus {
-    font-family: 'Roboto', sans-serif; 
+  .form_section form input:focus {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: #3C3A39;
+    color: #3c3a39;
     border: none;
-}
+  }
 
-.form_section form textarea {
+  .form_section form textarea {
     height: 8rem;
     border: none;
     padding: 1rem;
-}
+  }
 
-.form_section form textarea::placeholder {
-    font-family: 'Roboto', sans-serif; 
+  .form_section form textarea::placeholder {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #3C3A39;
-}
+    color: #3c3a39;
+  }
 
-.form_section form textarea:focus {
-    font-family: 'Roboto', sans-serif; 
+  .form_section form textarea:focus {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #3C3A39;
-}
+    color: #3c3a39;
+  }
 
-.form_section form button {
+  .form_section form button {
     width: 122px;
     height: 48px;
     background-color: #f55800;
@@ -80,68 +81,67 @@
     line-height: 24px;
     color: #fff;
     transition: all 0.5s;
-}
+  }
 
-.form_section form button:hover {
+  .form_section form button:hover {
     background-color: #fff;
     color: #f55800;
     border: 2px solid #f55800;
-}
+  }
 
-.form_section form button:focus {
-  width: 122px;
-  height: 48px;
-  background-color: #E05304;
-  border: none;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  transition: all 0.5s;
+  .form_section form button:focus {
+    width: 122px;
+    height: 48px;
+    background-color: #e05304;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    transition: all 0.5s;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  /* Contact */
 
-    /* Contact */
-  
-    .form_section {
-      flex-direction: column;
-      width: 90%;
-      height: 100%;
-      margin: 7rem auto;
-    }
-  
-    .form_section div {
-      width: fit-content;
-      text-align: center;
-    }
-  
-    .form_section div h2 {
-      color: #172B4D;
-      font-family: 'Inter', sans-serif;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 44px;
+  .form_section {
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    margin: 7rem auto;
   }
-  
+
+  .form_section div {
+    width: fit-content;
+    text-align: center;
+  }
+
+  .form_section div h2 {
+    color: #172b4d;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
   .form_section form {
     align-items: center;
     width: 100%;
-    
   }
-  
+
   .form_section form input {
     width: 100%;
   }
-  
+
   .form_section form textarea {
     width: 100%;
   }
-  
+
   .form_section form button {
     align-self: center;
   }
-  
-    /* Contact end */
+
+  /* Contact end */
 }

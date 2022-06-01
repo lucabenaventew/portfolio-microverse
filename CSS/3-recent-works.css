@@ -1,12 +1,13 @@
-/* RECENT WORKS */
+@media screen and (min-width: 768px) {
+  /* RECENT WORKS */
 
-.recent_works_container {
+  .recent_works_container {
     height: auto;
 
     width: 80%;
     margin: auto;
   }
-  
+
   .recent_works_container div {
     width: 100%;
     height: 20vh;
@@ -15,7 +16,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  
+
   .recent_works_container div h1 {
     color: #091e42;
     font-family: "Crete Round", serif;
@@ -24,13 +25,13 @@
     font-size: 40px;
     line-height: 52px;
   }
-  
+
   .recent_works_container div .line {
     height: 1px;
     width: 65%;
     background-color: #212121;
   }
-  
+
   .recent_works_container figure {
     display: flex;
     height: 60vh;
@@ -39,12 +40,12 @@
     width: 100%;
     margin: auto;
   }
-  
+
   .recent_works_container figure img {
     width: auto;
     height: 90%;
   }
-  
+
   .recent_works_container figcaption {
     height: 448px;
     padding: 0 2rem;
@@ -52,7 +53,7 @@
     gap: 1rem;
     flex-direction: column;
   }
-  
+
   .recent_works_container figcaption h1 {
     font-family: "Crete Round", serif;
     font-weight: 400;
@@ -60,7 +61,7 @@
     line-height: 52px;
     color: #091e42;
   }
-  
+
   .recent_works_container figcaption p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -68,12 +69,12 @@
     line-height: 28px;
     color: #091e42;
   }
-  
+
   .recent_works_container figcaption ul {
     display: flex;
     gap: 1rem;
   }
-  
+
   .recent_works_container figcaption ul li {
     border: 1px solid #8993a4;
     padding: 0.4rem 0.7rem;
@@ -83,7 +84,7 @@
     line-height: 20px;
     color: #091e42;
   }
-  
+
   .recent_works_container figcaption button {
     width: fit-content;
     height: 3rem;
@@ -97,18 +98,18 @@
     color: #fff;
     transition: all 0.5s;
   }
-  
+
   .recent_works_container figcaption button:hover {
     background-color: #fff;
     color: #f55800;
     border: 2px solid #f55800;
   }
-  
+
   .recent_works_container figcaption button:focus {
     width: fit-content;
     height: 3rem;
     padding: 0.5rem 1rem;
-    background-color: #E05304;
+    background-color: #e05304;
     border: none;
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -120,20 +121,20 @@
   /* WORKS GRID */
 
   .recent_works_container .works_grid_container .card button {
-      display: none;
-      width: 100%;
-      height: 3.5rem;
-      padding: 0.5rem 1rem;
-      background-color: #f55800;
-      border: none;
-      font-family: "Inter", sans-serif;
-      font-weight: 700;
-      font-size: 17px;
-      line-height: 24px;
-      color: #fff;
-      transition: all 0.5s;
+    display: none;
+    width: 100%;
+    height: 3.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f55800;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    transition: all 0.5s;
   }
-  
+
   .recent_works_container .works_grid_container .card_hovered button {
     width: 100%;
     height: 58px;
@@ -159,7 +160,7 @@
     width: 100%;
     height: 3.5rem;
     padding: 0.5rem 1rem;
-    background-color: #E05304;
+    background-color: #e05304;
     border: none;
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -167,7 +168,7 @@
     line-height: 24px;
     color: #fff;
     transition: all 0.5s;
-}
+  }
 
   .recent_works_container .works_grid_container .card_hovered button:hover {
     background-color: #fff;
@@ -178,7 +179,7 @@
   .recent_works_container .works_grid_container .card_hovered button:focus {
     width: 100%;
     height: 58px;
-    background-color: #E05304;
+    background-color: #e05304;
     border: none;
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -188,7 +189,7 @@
     transition: all 0.5s;
     cursor: pointer;
   }
-  
+
   .recent_works_container .works_grid_container {
     height: fit-content;
     margin: auto;
@@ -201,14 +202,14 @@
 
     width: 100%;
   }
-  
+
   .recent_works_container .works_grid_container div {
     width: 100%;
     height: 435px;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .recent_works_container .works_grid_container .card {
     display: flex;
     height: fit-content;
@@ -220,31 +221,31 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .recent_works_container .works_grid_container div:nth-child(2) {
     background-image: url("../img/bg/bg2.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .recent_works_container .works_grid_container div:nth-child(3) {
     background-image: url("../img/bg/bg3.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .recent_works_container .works_grid_container div:nth-child(5) {
     background-image: url("../img/bg/bg2.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .recent_works_container .works_grid_container div:nth-child(6) {
     background-image: url("../img/bg/bg3.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .recent_works_container .works_grid_container .card_hovered {
     display: flex;
     justify-content: flex-end;
@@ -262,7 +263,7 @@
     color: #fff;
     transition: all 0.5s;
   }
-  
+
   .recent_works_container .works_grid_container .card .content h1 {
     font-family: "Crete Round", serif;
     font-weight: 400;
@@ -271,7 +272,7 @@
     color: #fff;
     padding: 0 0 0 1rem;
   }
-  
+
   .recent_works_container .works_grid_container .card .content p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -279,84 +280,83 @@
     line-height: 24px;
     padding: 0 1rem;
   }
-  
+
   .recent_works_container .works_grid_container .card .content ul {
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
     padding: 0 0 1rem 1rem;
   }
-  
+
   .recent_works_container .works_grid_container .card .content ul li {
     border: 1px solid #8993a4;
-    background-color: #FFFFFF3D;
+    background-color: #ffffff3d;
     padding: 0.4rem 0.7rem;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
   }
-  
+
   /* WORKS GRID END */
-  
+
+  /* RECENT WORKS END */
+}
+@media screen and (max-width: 600px) {
+  /* RECENT WORKS */
+
+  .recent_works_container {
+    width: 90%;
+  }
+
+  .recent_works_container div {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  .line {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .recent_works_container div .line {
+    width: 100%;
+    height: 1px;
+    margin: auto;
+  }
+
+  .recent_works_container figure {
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 90%;
+  }
+
+  .recent_works_container figure img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .recent_works_container figcaption {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0;
+  }
+
   /* RECENT WORKS END */
 
-  @media screen and (max-width: 600px) {
+  /* WORKSGRID */
 
-    /* RECENT WORKS */
-
-    .recent_works_container {
-      width: 90%;
-    }
-  
-    .recent_works_container div {
-      width: 100%;
-      flex-direction: column;
-      gap: 1rem;
-      height: auto;
-      margin-top: 5rem;
-    }
-  
-    .line {
-      width: 90%;
-      margin: 0 auto;
-    }
-  
-    .recent_works_container div .line {
-      width: 100%;
-      height: 1px;
-      margin: auto;
-    }
-  
-    .recent_works_container figure {
-      flex-direction: column;
-      margin-top: 5rem;
-      width: 90%;
-    }
-  
-    .recent_works_container figure img {
-      width: 100%;
-      margin: auto;
-    }
-  
-    .recent_works_container figcaption {
-      margin-top: 1rem;
-      width: 100%;
-      padding: 0;
-    }
-  
-    /* RECENT WORKS END */
-  
-    /* WORKSGRID */
-  
-    .recent_works_container .works_grid_container .card .content button {
-      display: block;
-    }
-    
-    .recent_works_container .works_grid_container {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-    }
-  
-    /* WORKSGRID END */
+  .recent_works_container .works_grid_container .card .content button {
+    display: block;
   }
+
+  .recent_works_container .works_grid_container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  /* WORKSGRID END */
+}
