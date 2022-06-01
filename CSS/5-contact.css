@@ -88,6 +88,19 @@
     border: 2px solid #f55800;
 }
 
+.form_section form button:focus {
+  width: 122px;
+  height: 48px;
+  background-color: #E05304;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  transition: all 0.5s;
+}
+
 @media screen and (max-width: 600px) {
 
     /* Contact */

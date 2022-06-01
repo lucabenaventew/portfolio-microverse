@@ -55,6 +55,19 @@
     border: 2px solid #f55800;
   }
   
+  .about_text a:focus {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #E05304;
+    width: 161px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+  }
+
   .line {
     background-color: #ffffff;
     height: 1px;
