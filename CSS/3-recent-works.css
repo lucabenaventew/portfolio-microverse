@@ -2,10 +2,13 @@
 
 .recent_works_container {
     height: auto;
+
+    width: 80%;
+    margin: auto;
   }
   
   .recent_works_container div {
-    width: 80%;
+    width: 100%;
     height: 20vh;
     margin: auto;
     display: flex;
@@ -31,7 +34,8 @@
   .recent_works_container figure {
     display: flex;
     height: 60vh;
-    width: 80%;
+    /* width: 80%; */
+    width: 100%;
     margin: auto;
   }
   
@@ -104,6 +108,23 @@
 
   .recent_works_container .works_grid_container .card button {
       display: none;
+      width: 100%;
+      height: 3.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #f55800;
+      border: none;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 24px;
+      color: #fff;
+      transition: all 0.5s;
+  }
+
+  .recent_works_container .works_grid_container .card button:hover {
+    background-color: #fff;
+    color: #f55800;
+    border: 2px solid #f55800;
   }
   
   .recent_works_container .works_grid_container {
@@ -115,16 +136,18 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
+
+    width: 100%;
   }
   
   .recent_works_container .works_grid_container div {
-    width: 369px;
+    width: 100%;
     height: 435px;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
-  .recent_works_container .works_grid_container div:nth-child(4) {
+  .recent_works_container .works_grid_container .card:nth-child(4) {
     background-image: url("../img/bg/secondbg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,6 +197,7 @@
     line-height: 24px;
     color: #fff;
     transition: all 0.5s;
+    cursor: pointer;
   }
   
   .recent_works_container .works_grid_container .card_hovered button:hover {
@@ -185,14 +209,16 @@
   .recent_works_container .works_grid_container .card {
     display: flex;
     height: fit-content;
+    flex-direction: column;
   }
-  
+
   .recent_works_container .works_grid_container .card .content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
     color: #fff;
+    transition: all 0.5s;
   }
   
   .recent_works_container .works_grid_container .card .content h1 {
@@ -236,9 +262,13 @@
   @media screen and (max-width: 600px) {
 
     /* RECENT WORKS */
+
+    .recent_works_container {
+      width: 90%;
+    }
   
     .recent_works_container div {
-      width: 90%;
+      width: 100%;
       flex-direction: column;
       gap: 1rem;
       height: auto;
@@ -279,7 +309,7 @@
   
     .recent_works_container .works_grid_container .card button {
       display: block;
-      width: 100%;
+      /* width: 100%;
       height: 3.5rem;
       padding: 0.5rem 1rem;
       background-color: #f55800;
@@ -289,18 +319,15 @@
       font-size: 17px;
       line-height: 24px;
       color: #fff;
-      transition: all 0.5s;
+      transition: all 0.5s; */
     }
   
-    .recent_works_container .works_grid_container .card button:hover {
-      background-color: #fff;
-      color: #f55800;
-      border: 2px solid #f55800;
-    }
+    
   
     .recent_works_container .works_grid_container {
       grid-template-columns: 1fr;
       grid-template-rows: auto;
+      /* margin-top: 15rem; */
     }
   
     /* WORKSGRID END */
