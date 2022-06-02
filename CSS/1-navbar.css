@@ -36,7 +36,12 @@
     color: #fff;
     text-transform: uppercase;
     margin-left: 5rem;
+    transition: all 0.5s;
   }
+  nav .nav_logo:hover {
+    background-color: #000;
+  }
+
   nav ul .nav_link {
     color: #fff;
     font-size: 15px;
