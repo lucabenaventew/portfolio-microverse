@@ -16,7 +16,7 @@ Visit this [GitHub pages link](https://lucabenaventew.github.io/portfolio-microv
 
 ```
 To get a local copy up and running follow these simple example steps.
-$ git clone https://github.com/lucabenaventew/Portfolio.git
+$ git clone https://github.com/lucabenaventew/portfolio-microverse.git
 $ cd Portfolio
 & git checkout -b "branch_name"
 ```
