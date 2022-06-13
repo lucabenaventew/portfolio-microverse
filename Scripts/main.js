@@ -9,4 +9,4 @@ hamburger.addEventListener('click', function openMenu () {
 menu.addEventListener('click', function closeMenu () {
     this.classList.toggle('show');
     hamburger.classList.toggle('is-active');
-});
+})
