@@ -130,7 +130,6 @@
 /* ABOUT END */
 
 @media screen and (max-width: 600px) {
-
   /* About */
 
   .about {
@@ -168,6 +167,6 @@
     align-items: center;
     gap: 1rem;
   }
-  
+
   /* About end */
 }
