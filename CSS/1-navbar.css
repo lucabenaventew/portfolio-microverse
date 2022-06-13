@@ -14,26 +14,25 @@
     text-decoration: none;
     list-style: none;
   }
-
   .hamburger {
     display: none;
   }
-
   .nav_container {
     font-family: "Inter", sans-serif;
     background-color: #3e3c3c;
     height: 10vh;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 100;
   }
-
   .nav_links_container {
     display: flex;
     gap: 1rem;
     margin-right: 5rem;
   }
-
   nav .nav_logo {
     font-weight: 700;
     font-size: 20px;
@@ -52,7 +51,6 @@
     border-radius: 0.8rem;
     transition: all 0.4s;
   }
-  
   nav ul .nav_link:hover {
     background-color: gray;
     color: #3e3c3c;
@@ -64,14 +62,10 @@
     margin-left: 1rem;
   }
 
-  .nav_links_container {
-    display: none;
-  }
-
   .hamburger {
     display: block;
     position: relative;
-    z-index: 1;
+    z-index: 200;
     margin-right: 1rem;
 
     user-select: none;
@@ -119,6 +113,39 @@
 
   .hamburger.is-active:hover span {
     background-color: #f55800;
+  }
+
+  .nav_links_container {
+    /* display: none; */
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #3C3A39;
+    top: 0px;
+    left: -100%;
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 5rem;
+    transition: all .5s;
+  }
+
+  .nav_links_container .nav_link {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: left;
+    padding-left: 1rem;
+    border-radius: 0;
+    border-bottom: 2px solid #6F6C6B;
+  }
+
+  .nav_links_container.show {
+    left: 0;
   }
   /* Navbar end */
 }

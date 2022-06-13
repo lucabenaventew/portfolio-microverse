@@ -14,6 +14,14 @@
     gap: 1rem;
   }
 
+  footer ul li a img {
+    transition: all .5s;
+  }
+
+  footer ul li a img:hover {
+    opacity: 50%;
+  }
+
   footer div {
     display: none;
   }

@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: 40%;
-    height: 90vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 10% 40%;
   }
@@ -20,6 +20,14 @@
     justify-content: center;
     gap: 1rem;
     margin-bottom: 3rem;
+  }
+
+  .socialmedia_icons_container li a img {
+    transition: all .5s;
+  }
+
+  .socialmedia_icons_container li a img:hover {
+    opacity: 50%;
   }
 
   .hero_text {
