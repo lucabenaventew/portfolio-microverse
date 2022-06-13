@@ -69,7 +69,7 @@
 }
 
 .line {
-  background-color: #ffffff;
+  background-color: #fff;
   height: 1px;
   width: 100%;
   grid-row: 2;
@@ -126,15 +126,16 @@
   line-height: 43px;
   padding: 1rem 0;
 }
+
 /* ABOUT END */
 
 @media screen and (max-width: 600px) {
+
   /* About */
 
   .about {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    /* grid-template-rows: auto 5% 1fr; */
     background-position: -120% 25%;
     background-size: 140%;
   }
@@ -167,5 +168,6 @@
     align-items: center;
     gap: 1rem;
   }
+  
   /* About end */
 }

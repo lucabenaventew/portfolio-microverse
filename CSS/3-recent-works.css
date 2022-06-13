@@ -2,7 +2,6 @@
 
 .recent_works_container {
   height: auto;
-
   width: 80%;
   margin: auto;
 }
@@ -35,7 +34,6 @@
   display: flex;
   height: 60vh;
   align-items: flex-start;
-  /* width: 80%; */
   width: 100%;
   margin: auto;
 }
@@ -117,6 +115,7 @@
   color: #fff;
   transition: all 0.5s;
 }
+
 /* WORKS GRID */
 
 .recent_works_container .works_grid_container .card button {
@@ -190,7 +189,7 @@
 }
 
 .recent_works_container .works_grid_container {
-  height: fit-content;
+  height: 100%;
   margin: auto;
   margin-top: 10rem;
   margin-bottom: 10rem;
@@ -198,7 +197,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
-
   width: 100%;
 }
 
@@ -211,7 +209,7 @@
 
 .recent_works_container .works_grid_container .card {
   display: flex;
-  height: fit-content;
+  height: auto;
   flex-direction: column;
 }
 
