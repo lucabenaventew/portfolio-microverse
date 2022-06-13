@@ -7,54 +7,54 @@
   font-family: 'Roboto', sans-serif; 
    */
 
-  * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-  }
-  .hamburger {
-    display: none;
-  }
-  .nav_container {
-    font-family: "Inter", sans-serif;
-    background-color: #3e3c3c;
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 100;
-  }
-  .nav_links_container {
-    display: flex;
-    gap: 1rem;
-    margin-right: 5rem;
-  }
-  nav .nav_logo {
-    font-weight: 700;
-    font-size: 20px;
-    color: #fff;
-    text-transform: uppercase;
-    margin-left: 5rem;
-    transition: all 0.5s;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.hamburger {
+  display: none;
+}
+.nav_container {
+  font-family: "Inter", sans-serif;
+  background-color: #3e3c3c;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+.nav_links_container {
+  display: flex;
+  gap: 1rem;
+  margin-right: 5rem;
+}
+nav .nav_logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 5rem;
+  transition: all 0.5s;
+}
 
-  nav ul .nav_link {
-    color: #fff;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 600;
-    padding: 0.5rem;
-    border-radius: 0.8rem;
-    transition: all 0.4s;
-  }
-  nav ul .nav_link:hover {
-    background-color: gray;
-    color: #3e3c3c;
-  }
+nav ul .nav_link {
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  transition: all 0.4s;
+}
+nav ul .nav_link:hover {
+  background-color: gray;
+  color: #3e3c3c;
+}
 
 @media screen and (max-width: 600px) {
   /* Navbar */
@@ -120,14 +120,14 @@
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #3C3A39;
+    background: #3c3a39;
     top: 0px;
     left: -100%;
     text-align: center;
     flex-direction: column;
     padding: 0;
     padding-top: 5rem;
-    transition: all .5s;
+    transition: all 0.5s;
   }
 
   .nav_links_container .nav_link {
@@ -141,7 +141,7 @@
     text-align: left;
     padding-left: 1rem;
     border-radius: 0;
-    border-bottom: 2px solid #6F6C6B;
+    border-bottom: 2px solid #6f6c6b;
   }
 
   .nav_links_container.show {

@@ -1,64 +1,64 @@
-  .hero {
-    background-color: #1c1a19;
-    background-image: url(../img/bg/Illustration-header.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 40%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 10% 40%;
-  }
+.hero {
+  background-color: #1c1a19;
+  background-image: url(../img/bg/Illustration-header.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 40%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 40%;
+}
 
-  .icons {
-    align-self: center;
-  }
+.icons {
+  align-self: center;
+}
 
-  .socialmedia_icons_container {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 3rem;
-  }
+.socialmedia_icons_container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
 
-  .socialmedia_icons_container li a img {
-    transition: all .5s;
-  }
+.socialmedia_icons_container li a img {
+  transition: all 0.5s;
+}
 
-  .socialmedia_icons_container li a img:hover {
-    opacity: 50%;
-  }
+.socialmedia_icons_container li a img:hover {
+  opacity: 50%;
+}
 
-  .hero_text {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-  }
+.hero_text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
 
-  .hero_text h1 {
-    font-family: "Crete Round", serif;
-    font-weight: 400;
-    line-height: 81.5px;
-    font-size: 72px;
-    color: #f55800;
-  }
+.hero_text h1 {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  line-height: 81.5px;
+  font-size: 72px;
+  color: #f55800;
+}
 
-  .hero_text h4 {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    line-height: 44px;
-    font-size: 32px;
-  }
+.hero_text h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+  font-size: 32px;
+}
 
-  .hero_text p {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    line-height: 32px;
-    font-size: 20px;
-  }
+.hero_text p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 20px;
+}
 
 @media screen and (max-width: 600px) {
   /* Hero */
