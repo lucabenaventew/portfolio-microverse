@@ -155,6 +155,7 @@
 
   .modal_container .modal_content {
     height: auto;
+    flex-direction: column;
   }
 
   .modal_container .modal_header .modal_header_left ul {
@@ -163,10 +164,6 @@
 
   .modal_container .modal_header .modal_header_left ul li {
     font-size: 13px;
-  }
-
-  .modal_container .modal_content {
-    flex-direction: column;
   }
 
   .modal_container .modal_content .modal_content_info {
