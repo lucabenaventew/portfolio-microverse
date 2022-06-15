@@ -81,20 +81,20 @@ for (let i = 0; i < cardData.length; i += 1) {
     li.textContent = item;
     cardContentUl.appendChild(li);
   });
-  
-  card.addEventListener('mouseover', function hoverCard() {
-    cardContentH1.classList.add('hide')
-    cardContentP.classList.add('hide')
-    cardContentUl.classList.add('hide')
-    cardContentBtn.style.display = 'block'
-  })
 
-  card.addEventListener('mouseout', function hoverCard() {
-    cardContentH1.classList.remove('hide')
-    cardContentP.classList.remove('hide')
-    cardContentUl.classList.remove('hide')
-    cardContentBtn.style.display = 'none'
-  })
+  card.addEventListener('mouseover', () => {
+    cardContentH1.classList.add('hide');
+    cardContentP.classList.add('hide');
+    cardContentUl.classList.add('hide');
+    cardContentBtn.style.display = 'block';
+  });
+
+  card.addEventListener('mouseout', () => {
+    cardContentH1.classList.remove('hide');
+    cardContentP.classList.remove('hide');
+    cardContentUl.classList.remove('hide');
+    cardContentBtn.style.display = 'none';
+  });
 
   worksGridContainer.appendChild(card);
   card.appendChild(cardContent);
