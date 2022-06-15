@@ -62,7 +62,7 @@ cardHoveredBtn.textContent = btnContent;
 worksGridContainer.appendChild(cardHovered);
 cardHovered.appendChild(cardHoveredBtn);
 
-for (let i = 0; i < cardData.length; i ++) {
+for (let i = 0; i < cardData.length; i+= 1) {
   const card = document.createElement('div');
   card.classList.add('card');
   const cardContent = document.createElement('div');
