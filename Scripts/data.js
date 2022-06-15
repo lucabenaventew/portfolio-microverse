@@ -1,6 +1,6 @@
 const cardData = [
   {
-    Title: 'Muli-Post Stories',
+    Title: 'Project Title',
     Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam felis tellus, finibus sit amet varius sit amet, iaculis at nisl. Pellentesque sit amet erat dui. Nam consequat sapien in tortor faucibus, eu hendrerit justo interdum. In quis nunc vel diam.',
     Technologies: ['css', 'html', 'bootstrap', 'ruby'],
     Image: 'img/bg/Placeholder.png',
@@ -8,7 +8,7 @@ const cardData = [
     repo_link: 'https://github.com/lucabenaventew/Portfolio',
   },
   {
-    Title: 'Three. Test',
+    Title: 'Project Title',
     Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam felis tellus, finibus sit amet varius sit amet, iaculis at nisl. Pellentesque sit amet erat dui. Nam consequat sapien in tortor faucibus, eu hendrerit justo interdum. In quis nunc vel diam.',
     Technologies: ['html', 'bootstrap', 'ruby'],
     Image: 'img/bg/gold10.png',
@@ -16,7 +16,7 @@ const cardData = [
     repo_link: 'https://github.com/lucabenaventew/Portfolio',
   },
   {
-    Title: 'Three.js ',
+    Title: 'Project Title',
     Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam felis tellus, finibus sit amet varius sit amet, iaculis at nisl. Pellentesque sit amet erat dui. Nam consequat sapien in tortor faucibus, eu hendrerit justo interdum. In quis nunc vel diam.',
     Technologies: ['html', 'bootstrap', 'ruby'],
     Image: 'img/bg/gold10.png',
@@ -24,7 +24,7 @@ const cardData = [
     repo_link: 'https://github.com/lucabenaventew/Portfolio',
   },
   {
-    Title: 'Three.js Test',
+    Title: 'Project Title',
     Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam felis tellus, finibus sit amet varius sit amet, iaculis at nisl. Pellentesque sit amet erat dui. Nam consequat sapien in tortor faucibus, eu hendrerit justo interdum. In quis nunc vel diam.',
     Technologies: ['html', 'bootstrap', 'ruby'],
     Image: 'img/bg/gold10.png',
@@ -32,7 +32,7 @@ const cardData = [
     repo_link: 'https://github.com/lucabenaventew/Portfolio',
   },
   {
-    Title: 'Three.js Test',
+    Title: 'Project Title',
     Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam felis tellus, finibus sit amet varius sit amet, iaculis at nisl. Pellentesque sit amet erat dui. Nam consequat sapien in tortor faucibus, eu hendrerit justo interdum. In quis nunc vel diam.',
     Technologies: ['html', 'bootstrap', 'ruby'],
     Image: 'img/bg/gold10.png',
