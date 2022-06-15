@@ -32,8 +32,6 @@ const figcaptionUl = document.createElement('ul');
 const figcaptionBtn = document.createElement('button');
 const techUl = cardData[0].Technologies;
 
-
-
 figcaptionH1.textContent = cardData[0].Title;
 figcaptionP.textContent = cardData[0].Description;
 figcaptionBtn.textContent = btnContent;
@@ -45,9 +43,9 @@ figcaption.appendChild(figcaptionUl);
 figcaption.appendChild(figcaptionBtn);
 
 techUl.forEach(item => {
-    const li = document.createElement('li');
-    li.textContent = item;
-    figcaptionUl.appendChild(li);
+  const li = document.createElement('li');
+  li.textContent = item;
+  figcaptionUl.appendChild(li);
 })
 
 const worksGridContainer = document.createElement('div');
@@ -65,41 +63,35 @@ worksGridContainer.appendChild(cardHovered)
 cardHovered.appendChild(cardHoveredBtn)
 
 for (let i = 0; i < cardData.length; i++) {
-    const card = document.createElement('div');
-    card.classList.add('card');
-    const cardContent = document.createElement('div');
-    cardContent.classList.add('content');
-    const cardContentH1 = document.createElement('h1');
-    cardContentH1.textContent = cardData[i].Title
-    const cardContentP = document.createElement('p');
-    cardContentP.textContent = cardData[i].Description
-    const cardContentUl = document.createElement('ul')
-    const cardContentLi = cardData[i].Technologies;
-    const cardContentBtn = document.createElement('button');
-    cardContentBtn.textContent = btnContent;
+  const card = document.createElement('div');
+  card.classList.add('card');
+  const cardContent = document.createElement('div');
+  cardContent.classList.add('content');
+  const cardContentH1 = document.createElement('h1');
+  cardContentH1.textContent = cardData[i].Title
+  const cardContentP = document.createElement('p');
+  cardContentP.textContent = cardData[i].Description
+  const cardContentUl = document.createElement('ul')
+  const cardContentLi = cardData[i].Technologies;
+  const cardContentBtn = document.createElement('button');
+  cardContentBtn.textContent = btnContent;
 
-    cardContentLi.forEach(item => {
-        const li = document.createElement('li');
-        li.textContent = item;
-        cardContentUl.appendChild(li);
-    })
+  cardContentLi.forEach(item => {
+    const li = document.createElement('li');
+    li.textContent = item;
+    cardContentUl.appendChild(li);
+  })
 
-    card.addEventListener('mouseover', function hoverCard() {
-        cardContentH1.classList.toggle('opc-0')
-        cardContentP.classList.toggle('opc-0')
-        cardContentUl.classList.toggle('opc-0')
-    })
+  card.addEventListener('mouseover', function hoverCard() {
+    cardContentH1.classList.toggle('opc-0')
+    cardContentP.classList.toggle('opc-0')
+    cardContentUl.classList.toggle('opc-0')
+  })
 
-
-
-
-    worksGridContainer.appendChild(card);
-    card.appendChild(cardContent)
-    cardContent.appendChild(cardContentH1)
-    cardContent.appendChild(cardContentP)
-    cardContent.appendChild(cardContentUl)
-    cardContent.appendChild(cardContentBtn)
-
-    
+  worksGridContainer.appendChild(card);
+  card.appendChild(cardContent)
+  cardContent.appendChild(cardContentH1)
+  cardContent.appendChild(cardContentP)
+  cardContent.appendChild(cardContentUl)
+  cardContent.appendChild(cardContentBtn)
 }
-
