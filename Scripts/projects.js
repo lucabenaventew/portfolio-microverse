@@ -42,7 +42,7 @@ figcaption.appendChild(figcaptionP);
 figcaption.appendChild(figcaptionUl);
 figcaption.appendChild(figcaptionBtn);
 
-techUl.forEach(item => {
+techUl.forEach((item) => {
   const li = document.createElement('li');
   li.textContent = item;
   figcaptionUl.appendChild(li);
@@ -76,16 +76,10 @@ for (let i = 0; i < cardData.length; i++) {
   const cardContentBtn = document.createElement('button');
   cardContentBtn.textContent = btnContent;
 
-  cardContentLi.forEach(item => {
+  cardContentLi.forEach((item) => {
     const li = document.createElement('li');
     li.textContent = item;
     cardContentUl.appendChild(li);
-  });
-
-  card.addEventListener('mouseover', function hoverCard() {
-    cardContentH1.classList.toggle('opc-0')
-    cardContentP.classList.toggle('opc-0')
-    cardContentUl.classList.toggle('opc-0')
   });
 
   worksGridContainer.appendChild(card);
