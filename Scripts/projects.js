@@ -1,9 +1,9 @@
 import cardData from './data.js';
 
 const projects = document.querySelector('#projects');
-const btnContent = 'See Project'
+const btnContent = 'See Project';
 
-projects.classList.add('recent_works_container')
+projects.classList.add('recent_works_container');
 
 const titleContainer = document.createElement('div');
 const titleH1 = document.createElement('h1');
@@ -46,21 +46,21 @@ techUl.forEach(item => {
   const li = document.createElement('li');
   li.textContent = item;
   figcaptionUl.appendChild(li);
-})
+});
 
 const worksGridContainer = document.createElement('div');
-worksGridContainer.classList.add('works_grid_container')
+worksGridContainer.classList.add('works_grid_container');
 
 projects.appendChild(worksGridContainer);
 
 const cardHovered = document.createElement('div');
 const cardHoveredBtn = document.createElement('button');
 
-cardHovered.classList.add('card_hovered')
+cardHovered.classList.add('card_hovered');
 cardHoveredBtn.textContent = btnContent;
 
-worksGridContainer.appendChild(cardHovered)
-cardHovered.appendChild(cardHoveredBtn)
+worksGridContainer.appendChild(cardHovered);
+cardHovered.appendChild(cardHoveredBtn);
 
 for (let i = 0; i < cardData.length; i++) {
   const card = document.createElement('div');
@@ -68,10 +68,10 @@ for (let i = 0; i < cardData.length; i++) {
   const cardContent = document.createElement('div');
   cardContent.classList.add('content');
   const cardContentH1 = document.createElement('h1');
-  cardContentH1.textContent = cardData[i].Title
+  cardContentH1.textContent = cardData[i].Title;
   const cardContentP = document.createElement('p');
-  cardContentP.textContent = cardData[i].Description
-  const cardContentUl = document.createElement('ul')
+  cardContentP.textContent = cardData[i].Description;
+  const cardContentUl = document.createElement('ul');
   const cardContentLi = cardData[i].Technologies;
   const cardContentBtn = document.createElement('button');
   cardContentBtn.textContent = btnContent;
@@ -80,18 +80,18 @@ for (let i = 0; i < cardData.length; i++) {
     const li = document.createElement('li');
     li.textContent = item;
     cardContentUl.appendChild(li);
-  })
+  });
 
   card.addEventListener('mouseover', function hoverCard() {
     cardContentH1.classList.toggle('opc-0')
     cardContentP.classList.toggle('opc-0')
     cardContentUl.classList.toggle('opc-0')
-  })
+  });
 
   worksGridContainer.appendChild(card);
-  card.appendChild(cardContent)
-  cardContent.appendChild(cardContentH1)
-  cardContent.appendChild(cardContentP)
-  cardContent.appendChild(cardContentUl)
-  cardContent.appendChild(cardContentBtn)
+  card.appendChild(cardContent);
+  cardContent.appendChild(cardContentH1);
+  cardContent.appendChild(cardContentP);
+  cardContent.appendChild(cardContentUl);
+  cardContent.appendChild(cardContentBtn);
 }
