@@ -8,39 +8,39 @@ for (let i = 0; i < seeBtn.length; i += 1) {
     body.style.overflow = 'hidden'
     const modal = document.createElement('section');
     modal.id = 'modal';
-    const modal_container = document.createElement('div');
-    modal_container.classList.add('modal_container');
-    const modal_header = document.createElement('div');
-    modal_header.classList.add('modal_header');
-    const modal_header_left = document.createElement('div');
-    modal_header_left.classList.add('modal_header_left');
-    const modal_header_leftH2 = document.createElement('h2');
-    modal_header_leftH2.textContent = cardData[i].Title;
-    const modal_header_leftUl = document.createElement('ul');
-    const modal_header_leftLi = cardData[i].Technologies;
-    const modal_header_right = document.createElement('div');
-    modal_header_right.classList.add('modal_header_right');
+    const modalContainer = document.createElement('div');
+    modalContainer.classList.add('modalContainer');
+    const modalHeader = document.createElement('div');
+    modalHeader.classList.add('modalHeader');
+    const modalHeaderLeft = document.createElement('div');
+    modalHeaderLeft.classList.add('modalHeaderLeft');
+    const modalHeaderLeftH2 = document.createElement('h2');
+    modalHeaderLeftH2.textContent = cardData[i].Title;
+    const modalHeaderLeftUl = document.createElement('ul');
+    const modalHeaderLeftLi = cardData[i].Technologies;
+    const modalHeaderRight = document.createElement('div');
+    modalHeaderRight.classList.add('modalHeaderRight');
     const xBtn = document.createElement('i');
     xBtn.classList.add('fa-solid');
     xBtn.classList.add('fa-x');
-    const modal_content = document.createElement('div');
-    modal_content.classList.add('modal_content');
+    const modalContent = document.createElement('div');
+    modalContent.classList.add('modalContent');
     const modalImg = document.createElement('img');
     modalImg.src = cardData[i].Image;
-    const modal_content_info = document.createElement('div');
-    modal_content_info.classList.add('modal_content_info');
+    const modalContentInfo = document.createElement('div');
+    modalContentInfo.classList.add('modalContentInfo');
     const modalP = document.createElement('p');
     modalP.textContent = cardData[i].Description;
-    const modal_content_btns = document.createElement('div');
-    modal_content_btns.classList.add('modal_content_btns')
+    const modalContentBtns = document.createElement('div');
+    modalContentBtns.classList.add('modalContentBtns');
     const modalLive = document.createElement('a');
     modalLive.textContent = 'See Live';
-    modalLive.href = cardData[i].demo_link
+    modalLive.href = cardData[i].demo_link;
     const modalLiveImg = document.createElement('img');
     modalLiveImg.src = './img/svg/live.svg';
     const modalSource = document.createElement('a');
     modalSource.textContent = 'See Live';
-    modalSource.href = cardData[i].repo_link
+    modalSource.href = cardData[i].repo_link;
     const modalSourceImg = document.createElement('img');
     modalSourceImg.src = './img/svg/source.svg';
 
@@ -49,28 +49,28 @@ for (let i = 0; i < seeBtn.length; i += 1) {
       body.style.overflow = 'visible';
     });
 
-    modal_header_leftLi.forEach((item) => {
+    modalHeaderLeftLi.forEach((item) => {
       const li = document.createElement('li');
       li.textContent = item;
-      modal_header_leftUl.appendChild(li);
+      modalHeaderLeftUl.appendChild(li);
     });
 
     body.appendChild(modal);
-    modal.appendChild(modal_container);
-    modal_container.appendChild(modal_header);
-    modal_header.appendChild(modal_header_left);
-    modal_header_left.appendChild(modal_header_leftH2)
-    modal_header_left.appendChild(modal_header_leftUl)
-    modal_header.appendChild(modal_header_right);
-    modal_header_right.appendChild(xBtn);
-    modal_container.appendChild(modal_content);
-    modal_content.appendChild(modalImg);
-    modal_content.appendChild(modal_content_info);
-    modal_content_info.appendChild(modalP)
-    modal_content_info.appendChild(modal_content_btns)
-    modal_content_btns.appendChild(modalLive);
+    modal.appendChild(modalContainer);
+    modalContainer.appendChild(modalHeader);
+    modalHeader.appendChild(modalHeaderLeft);
+    modalHeaderLeft.appendChild(modalHeaderLeftH2);
+    modalHeaderLeft.appendChild(modalHeaderLeftUl);
+    modalHeader.appendChild(modalHeaderRight);
+    modalHeaderRight.appendChild(xBtn);
+    modalContainer.appendChild(modalContent);
+    modalContent.appendChild(modalImg);
+    modalContent.appendChild(modalContentInfo);
+    modalContentInfo.appendChild(modalP);
+    modalContentInfo.appendChild(modalContentBtns);
+    modalContentBtns.appendChild(modalLive);
     modalLive.appendChild(modalLiveImg);
-    modal_content_btns.appendChild(modalSource);
+    modalContentBtns.appendChild(modalSource);
     modalSource.appendChild(modalSourceImg);
-  })
+  });
 }
