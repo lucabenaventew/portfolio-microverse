@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./CSS/4-about.css" />
     <link rel="stylesheet" href="./CSS/5-contact.css" />
     <link rel="stylesheet" href="./CSS/6-footer.css" />
+    <link rel="stylesheet" href="./CSS/7-popup.css" />
     <script src="https://kit.fontawesome.com/8bb8430e5d.js" crossorigin="anonymous"></script>
     <title>Luca's Portfolio</title>
 </head>
@@ -67,6 +68,40 @@
             </p>
         </div>
     </section>
+
+    <template>
+        <section id="modal">
+            <div class="modal_container">
+                <div class="modal_header">
+                    <div class="modal_header_left">
+                        <h2>
+                            Multi Post Stories
+                        </h2>
+                        <ul>
+                            <li>html</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby on Rails</li>
+                        </ul>
+                    </div>
+                    <div class="modal_header_right">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                </div>
+                <div class="modal_content">
+                    <img src="./img/bg/gold10.png" alt="">
+                    <div class="modal_content_info">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                        <div class="modal_content_btns">
+                            <a href="">See Live <img src="./img/svg/live.svg" alt=""></a>
+                            <a href="">See Source <img src="./img/svg/github.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
 
     <section id="projects">
 
@@ -167,6 +202,7 @@
 
     <script src="./Scripts/main.js" type="module"></script>
     <script src="./Scripts/projects.js" type="module"></script>
+    <script src="./Scripts/popup.js" type="module"></script>
 </body>
 
 </html>
