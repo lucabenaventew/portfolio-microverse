@@ -120,21 +120,13 @@
   transition: all 0.5s;
 }
 
-.modal_container
-  .modal_content
-  .modal_content_info
-  .modal_content_btns
-  a:hover {
+.modal_container .modal_content .modal_content_info .modal_content_btns a:hover {
   background-color: #fff;
   color: #f55800;
   border: 2px solid #f55800;
 }
 
-.modal_container
-  .modal_content
-  .modal_content_info
-  .modal_content_btns
-  a:focus {
+.modal_container .modal_content .modal_content_info .modal_content_btns a:focus {
   width: fit-content;
   height: 3rem;
   padding: 0.5rem 1rem;
@@ -160,6 +152,7 @@
   .modal_container .modal_header {
     height: auto;
   }
+
   .modal_container .modal_content {
     height: auto;
   }
