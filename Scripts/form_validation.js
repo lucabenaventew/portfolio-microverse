@@ -25,7 +25,6 @@ form.addEventListener('submit', (e) => {
   if (data[1].value.toLowerCase() !== data[1].value) {
     e.preventDefault();
     data[1].classList.add('error');
-    error[1].textContent = 'Email cant contain upercase';
     error[3].textContent = 'Email cant contain upercase';
     e.preventDefault();
   } else {
