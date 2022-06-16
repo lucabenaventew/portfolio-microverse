@@ -1,4 +1,5 @@
 import cardData from './data.js';
+import cardData1 from './data1.js';
 
 const projects = document.querySelector('#projects');
 const btnContent = 'See Project';
@@ -22,7 +23,7 @@ const figureImg = document.createElement('img');
 figure.classList.add('mps');
 projects.appendChild(figure);
 
-figureImg.src = cardData[0].Image;
+figureImg.src = cardData1[0].Image;
 figure.appendChild(figureImg);
 
 const figcaption = document.createElement('figcaption');
@@ -30,11 +31,12 @@ const figcaptionH1 = document.createElement('h1');
 const figcaptionP = document.createElement('p');
 const figcaptionUl = document.createElement('ul');
 const figcaptionBtn = document.createElement('button');
-const techUl = cardData[0].Technologies;
+const techUl = cardData1[0].Technologies;
 
-figcaptionH1.textContent = cardData[0].Title;
-figcaptionP.textContent = cardData[0].Description;
+figcaptionH1.textContent = cardData1[0].Title;
+figcaptionP.textContent = cardData1[0].Description;
 figcaptionBtn.textContent = btnContent;
+figcaptionBtn.classList.add('btn-2')
 
 figure.appendChild(figcaption);
 figcaption.appendChild(figcaptionH1);
@@ -58,6 +60,8 @@ const cardHoveredBtn = document.createElement('button');
 
 cardHovered.classList.add('card_hovered');
 cardHoveredBtn.textContent = btnContent;
+cardHoveredBtn.classList.add('btn-1');
+
 
 worksGridContainer.appendChild(cardHovered);
 cardHovered.appendChild(cardHoveredBtn);
@@ -75,6 +79,7 @@ for (let i = 0; i < cardData.length; i += 1) {
   const cardContentLi = cardData[i].Technologies;
   const cardContentBtn = document.createElement('button');
   cardContentBtn.textContent = btnContent;
+  cardContentBtn.classList.add('boton'+i)
 
   cardContentLi.forEach((item) => {
     const li = document.createElement('li');
