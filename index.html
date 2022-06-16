@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./CSS/4-about.css" />
     <link rel="stylesheet" href="./CSS/5-contact.css" />
     <link rel="stylesheet" href="./CSS/6-footer.css" />
+    <link rel="stylesheet" href="./CSS/7-popup.css" />
     <script src="https://kit.fontawesome.com/8bb8430e5d.js" crossorigin="anonymous"></script>
     <title>Luca's Portfolio</title>
 </head>
@@ -20,7 +21,7 @@
         <nav class="nav_container">
             <a href="#" class="nav_logo">Luca Benavente</a>
             <ul class="nav_links_container">
-                <li><a href="#Portfolio" class="nav_link">Portfolio</a></li>
+                <li><a href="#projects" class="nav_link">Portfolio</a></li>
                 <li><a href="#about" class="nav_link">About</a></li>
                 <li><a href="#contact" class="nav_link">Contact</a></li>
                 <li>
@@ -68,124 +69,42 @@
         </div>
     </section>
 
-    <section class="recent_works_container" id="Portfolio">
-        <div>
-            <h1>My Recent Works</h1>
-            <div class="line"></div>
-        </div>
-        <figure class="mps">
-            <img src="./img/bg/Placeholder.png" alt="Placeholder" />
-            <figcaption>
-                <h1>Muli-Post Stories</h1>
-                <p>
-                    A daily selection of privately personalized reads; no accounts or
-                    sign-ups required. has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a standard dummy text.
-                </p>
-                <ul>
-                    <li>css</li>
-                    <li>html</li>
-                    <li>bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
-                <button type="button">See Project</button>
-            </figcaption>
-        </figure>
-        <div class="works_grid_container">
-            <div class="card_hovered">
-                <button type="button">See Project</button>
-            </div>
-
-            <div class="card">
-                <div class="content">
-                    <h1>Data Dashboard Healthcare</h1>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a standard
-                        dummy text.
-                    </p>
-                    <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
+    <template>
+        <section id="modal">
+            <div class="modal_container">
+                <div class="modal_header">
+                    <div class="modal_header_left">
+                        <h2>
+                            Multi Post Stories
+                        </h2>
+                        <ul>
+                            <li>html</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby on Rails</li>
+                        </ul>
+                    </div>
+                    <div class="modal_header_right">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                </div>
+                <div class="modal_content">
+                    <img src="./img/bg/gold10.png" alt="">
+                    <div class="modal_content_info">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                        <div class="modal_content_btns">
+                            <a href="">See Live <img src="./img/svg/live.svg" alt=""></a>
+                            <a href="">See Source <img src="./img/svg/github.svg" alt=""></a>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+    </template>
 
-            <div class="card">
-                <div class="content">
-                    <h1>Website Portfolio</h1>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a standard
-                        dummy text.
-                    </p>
-                    <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
-                </div>
-            </div>
+    <section id="projects">
 
-            <div class="card">
-                <div class="content">
-                    <h1>Profesional Art Printing Data More</h1>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a standard
-                        dummy text.
-                    </p>
-                    <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="content">
-                    <h1>Data Dashboard Healthcare</h1>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a standard
-                        dummy text.
-                    </p>
-                    <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="content">
-                    <h1>Website Portfolio</h1>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a standard
-                        dummy text.
-                    </p>
-                    <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
-                </div>
-            </div>
-        </div>
     </section>
 
     <section id="about" class="about">
@@ -281,7 +200,9 @@
         <div> </div>
     </footer>
 
-    <script src="./Scripts/main.js"></script>
+    <script src="./Scripts/main.js" type="module"></script>
+    <script src="./Scripts/projects.js" type="module"></script>
+    <script src="./Scripts/popup.js" type="module"></script>
 </body>
 
 </html>
