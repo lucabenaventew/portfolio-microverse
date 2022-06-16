@@ -176,13 +176,13 @@
         </div>
         <form name="contactForm" id="Form-form" action="https://formspree.io/f/mleznykr" method="POST" class="form">
             
-                <input class="form_input form_fullname" type="text" placeholder="Full name"
+                <input id="name" class="form_input form_fullname" type="text" placeholder="Full name"
                     name="fullName" required maxlength="30" />
                     <small></small>
-                <input class="form_input form_email" type="email" placeholder="Email address" name="userEmail"
+                <input id="email" class="form_input form_email" type="email" placeholder="Email address" name="userEmail"
                     required />
                     <small></small>
-                <textarea class="form_msg" name="userMessage" placeholder="Enter your message here" required
+                <textarea id="message" class="form_msg" name="userMessage" placeholder="Enter your message here" required
                     maxlength="500"></textarea>
                     <small></small>
                 <div class="form_btn">
@@ -204,6 +204,7 @@
         <div> </div>
     </footer>
 
+    <script src="./Scripts/local_storage.js"></script>
     <script src="./Scripts/main.js" type="module"></script>
     <script src="./Scripts/projects.js" type="module"></script>
     <script src="./Scripts/popup.js" type="module"></script>
