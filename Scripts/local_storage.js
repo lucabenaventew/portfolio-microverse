@@ -1,7 +1,7 @@
 const form = document.forms.contactForm;
-const Name = form.elements.fullName;
-const Email = form.elements.userEmail;
-const Message = form.elements.userMessage;
+const Name = form.elements[0];
+const Email = form.elements[1];
+const Message = form.elements[2];
 
 form.addEventListener('input', (e) => {
   const formInput = {
@@ -17,7 +17,6 @@ function RetriveData() {
   if (localStorage.getItem('Data')) {
     const inputValue = JSON.parse(localStorage.getItem('Data'));
     Name.value = inputValue.name;
-    LastName.value = inputValue.lastName;
     Email.value = inputValue.email;
     Message.value = inputValue.message;
   }
