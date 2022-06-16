@@ -1,16 +1,15 @@
 import cardData from './data.js';
 import cardData1 from './data1.js';
 
-const seeBtn = document.querySelectorAll('#projects button');
 const body = document.querySelector('body');
 
-const btnM2 = document.querySelector('.btn-2')
-const btnM1 = document.querySelector('.btn-1')
-const btn0 = document.querySelector('.boton0')
-const btn1 = document.querySelector('.boton1')
-const btn2 = document.querySelector('.boton2')
-const btn3 = document.querySelector('.boton3')
-const btn4 = document.querySelector('.boton4')
+const btnM2 = document.querySelector('.btn-2');
+const btnM1 = document.querySelector('.btn-1');
+const btn0 = document.querySelector('.boton0');
+const btn1 = document.querySelector('.boton1');
+const btn2 = document.querySelector('.boton2');
+const btn3 = document.querySelector('.boton3');
+const btn4 = document.querySelector('.boton4');
 
 btnM2.addEventListener('click', () => {
   body.style.overflow = 'hidden';

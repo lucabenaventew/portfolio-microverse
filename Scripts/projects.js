@@ -36,7 +36,7 @@ const techUl = cardData1[0].Technologies;
 figcaptionH1.textContent = cardData1[0].Title;
 figcaptionP.textContent = cardData1[0].Description;
 figcaptionBtn.textContent = btnContent;
-figcaptionBtn.classList.add('btn-2')
+figcaptionBtn.classList.add('btn-2');
 
 figure.appendChild(figcaption);
 figcaption.appendChild(figcaptionH1);
@@ -62,7 +62,6 @@ cardHovered.classList.add('card_hovered');
 cardHoveredBtn.textContent = btnContent;
 cardHoveredBtn.classList.add('btn-1');
 
-
 worksGridContainer.appendChild(cardHovered);
 cardHovered.appendChild(cardHoveredBtn);
 
@@ -79,7 +78,7 @@ for (let i = 0; i < cardData.length; i += 1) {
   const cardContentLi = cardData[i].Technologies;
   const cardContentBtn = document.createElement('button');
   cardContentBtn.textContent = btnContent;
-  cardContentBtn.classList.add('boton'+i)
+  cardContentBtn.classList.add(`boton${i}`);
 
   cardContentLi.forEach((item) => {
     const li = document.createElement('li');
