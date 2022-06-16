@@ -174,16 +174,20 @@
                 to chat please get in touch.
             </h2>
         </div>
-        <form action="https://formspree.io/f/mleznykr" method="POST" class="form">
+        <form name="contactForm" id="Form-form" action="https://formspree.io/f/mleznykr" method="POST" class="form">
             
                 <input class="form_input form_fullname" type="text" placeholder="Full name"
-                    name="user_last_name" required maxlength="30" />
-                <input class="form_input form_email" type="email" placeholder="Email address" name="user_email"
+                    name="fullName" required maxlength="30" />
+                    <small></small>
+                <input class="form_input form_email" type="email" placeholder="Email address" name="userEmail"
                     required />
-                <textarea class="form_msg" name="user_message" placeholder="Enter your message here" required
+                    <small></small>
+                <textarea class="form_msg" name="userMessage" placeholder="Enter your message here" required
                     maxlength="500"></textarea>
+                    <small></small>
                 <div class="form_btn">
                     <button type="submit" class="btn_reg">Get in touch</button>
+                    <small></small>
                 </div>
             
         </form>
@@ -203,6 +207,7 @@
     <script src="./Scripts/main.js" type="module"></script>
     <script src="./Scripts/projects.js" type="module"></script>
     <script src="./Scripts/popup.js" type="module"></script>
+    <script src="./Scripts/form_validation.js" type="module"></script>
 </body>
 
 </html>

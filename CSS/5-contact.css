@@ -101,6 +101,16 @@
   transition: all 0.5s;
 }
 
+.error {
+  border-bottom: 3px red dashed !important;
+  margin: 0 !important;
+}
+
+small {
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
 @media screen and (max-width: 600px) {
   /* Contact */
 
