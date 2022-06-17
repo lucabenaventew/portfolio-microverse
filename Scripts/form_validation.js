@@ -7,7 +7,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 }
 
 form.addEventListener('submit', (e) => {
-  for (let i = 0; i < data.length; i += 1) {
+  for (let a = 0; a < data.length; a += 1) {
     if (data[i].value === '') {
       e.preventDefault();
       data[i].classList.add('error');
@@ -15,14 +15,14 @@ form.addEventListener('submit', (e) => {
       error[3].textContent = `Fill ${data[i].getAttribute('placeholder')} field first`;
       break;
     }
-    if (data[i].value !== '') {
+    if (data[i].value != '') {
       data[i].classList.remove('error');
       error[i].textContent = '';
       error[3].textContent = '';
     }
   }
 
-  if (data[1].value.toLowerCase() !== data[1].value) {
+  if (data[].value.toLowerCase() != data[1].value) {
     e.preventDefault();
     data[1].classList.add('error');
     error[3].textContent = 'Email cant contain upercase';
